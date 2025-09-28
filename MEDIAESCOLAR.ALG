@@ -19,12 +19,18 @@ EscrevaL("Digite a primeira nota: ")
     Escreval("Aluno aprovado")
     Escreva("------------------------------------------")
  Senao
-    Escreval("----------------------------------------")
-    Escreval("Média:", M)
-    Escreval("Aluno reprovado")
-    Escreva("-----------------------------------------")
+    Se(M >= 5) e (M <7) Entao
+         EscrevaL("-----------------------------------------")
+         EscrevaL("Média: ", M)
+         EscrevaL("Aluno em Recuperação")
+         EscrevaL("-----------------------------------------")
+ Senao
+      Escreval("----------------------------------------")
+      Escreval("Média:", M)
+      Escreval("Aluno reprovado")
+      Escreva("-----------------------------------------")
  FimSe
-
+FimSe
 
 
 
